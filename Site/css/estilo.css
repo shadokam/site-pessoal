@@ -1,0 +1,135 @@
+body{
+    background: #c7cfd2;
+    font-size: 25px;
+    font-family: 'Verdana';
+}
+
+video{
+    border-top: 50px solid #85a6c5;
+    border-left: 10px solid #85a6c5;
+    border-bottom: 10px solid #85a6c5;
+    border-right: 10px solid #85a6c5;
+    border-radius: 10px;
+
+}
+
+#logo{
+    position: relative;
+    margin-left: -100px;
+}
+
+#menu{
+    background: #85a6c5;
+    margin-top: 20px;
+    top: 10px;
+    right: 0;
+    position: fixed;
+    text-align: right;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 10px #201d26;
+}
+
+#linha{
+    background: #99434c;
+    margin-top: -60px;
+    height: 30px;
+    width: 100%;
+}
+
+#area-principal{
+    background: #201d26;
+    margin-top: 30px;
+    height: auto;
+}
+
+#titulo{
+    color: #c7cfd2;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 110px;
+}
+
+#video{
+    padding-top: 100px;
+    padding-left: 350px;
+    padding-bottom: 100px;
+    padding-right: 350px;
+}
+
+#social{
+    padding: auto;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: -50px;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: #c7cfd2;
+    margin-top: 50px;
+}
+
+
+/*Formatação de menu*/
+a{
+  text-decoration: none;
+  padding: 5px 50px;
+}
+
+/*Links não visitados*/
+a:link{
+    color: #c7cfd2;
+    align-content: center;
+}
+/*Links visitados*/
+a:visited{
+    color: #c7cfd2;
+}
+/*Links hover*/
+a:hover{
+    color: #99434c;
+    text-decoration: none;
+}
+/*Links no click*/
+a:active{
+    color: #c7cfd2;
+}
+
+.fa {
+    padding: 10px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #99434c;
+    color: #c7cfd2;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #99434c;
+    color: #c7cfd2;
+}
+
+/* Play store */
+.fa-play {
+    background: #99434c;
+    color: #c7cfd2;
+}
+
+/* Google */
+.fa-google {
+    background: #99434c;
+    color: #c7cfd2;
+}
